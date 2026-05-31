@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo App</h1>
+
+      <!-- Form Input -->
+
+      <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Masukkan task..." />
+        <select id="priority">
+          <option value="Tinggi">Tinggi</option>
+          <option value="Sedang" selected>Sedang</option>
+          <option value="Rendah">Rendah</option>
+        </select>
+        <button type="submit">Tambah</button>
+      </form>
+      <p id="message"></p>
+      <p id="loading"></p>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

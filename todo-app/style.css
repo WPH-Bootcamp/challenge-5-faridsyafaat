@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input,
+select {
+  padding: 10px;
+}
+
+input {
+  flex: 1;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  margin-top: 10px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.todo-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.completed {
+  opacity: 0.8;
+}
+
+.completed .todo-title {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.badge {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.high {
+  background: #ffd6d6;
+}
+
+.medium {
+  background: #fff4cc;
+}
+
+.low {
+  background: #d8f5d0;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+}
+
+.empty-state {
+  color: gray;
+}
+
+#message {
+  margin-top: 10px;
+}
+
+#loading {
+  color: blue;
+  margin-top: 10px;
+  font-weight: bold;
+}
